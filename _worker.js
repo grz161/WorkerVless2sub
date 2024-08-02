@@ -6,9 +6,9 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
 	'www.visa.com.sg#官方优选域名',
-	'www.wto.org:2083#官方优选域名',
-	'www.who.int:2087#官方优选域名',
-	'icook.tw:2053#官方优选域名',
+	'www.wto.org:#官方优选域名',
+	'www.who.int:#官方优选域名',
+	'icook.tw:8443#官方优选域名',
 	'cloudflare.cfgo.cc#优选官方线路',
 ];
 
